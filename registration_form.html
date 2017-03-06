@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Zenway Registration</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <SCRIPT>
+     <script langauage="javascript">
+      function showMessage(value){
+         document.getElementById("message").innerHTML = value;
+      }   
+   </script>
+    </SCRIPT>
+  </head>
+  <style>
+  
+
+.demo-card-wide.mdl-card {
+      width: 80%;
+  margin: 0 auto;
+}
+.demo-card-wide > .mdl-card__title {
+ 
+  height: 176px;
+   background: url('img/registration.png') center / cover;
+}
+}
+.demo-card-wide > .mdl-card__menu {
+
+}
+
+ .mdl-textfield__label:after {
+  bottom:15px;}
+  body {
+    background-color: slategray;
+  }
+    
+  </style>
+  <body>
+  
+ 
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text"></h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    <form action="#" class="mdl-grid">
+    <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--4-col">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1" required>Firstname...</label>
+  </div>
+  <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--4-col">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1">Middlename...</label>
+  </div>
+  <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--4-col">
+    <input class="mdl-textfield__input" type="text" id="sample1">
+    <label class="mdl-textfield__label" for="sample1" required>Lastname...</label>
+  </div>
+  <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--3-col">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+    <label class="mdl-textfield__label" for="sample2">Contact Number...</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+  <table CLASS="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--7-col">
+     
+      <tr><td> 
+         <label class="mdl-radio mdl-js-radio" for="option1">
+            <input type="radio" id="option1" name="gender" class="mdl-radio__button" checked>
+            <span class="mdl-radio__label">Business Address</span>
+         </label>
+    </td>
+      <td>
+         <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option2">
+            <input type="radio" id="option2" name="gender" class="mdl-radio__button" >
+            <span class="mdl-radio__label">Residential Address</span>
+         </label>
+    </td>
+       
+      </tr>
+   </table>
+</form>
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Get Started
+    </a>
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
+
+    
+   
+  </body>
+</html>
